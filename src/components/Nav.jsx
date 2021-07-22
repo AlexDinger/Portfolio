@@ -26,7 +26,6 @@ const Nav = () => {
       >
         <NavItem page="/" title="Home" setNavState={setNavState} />
         <NavItem page="/links" title="Links" setNavState={setNavState} />
-        <NavItem page="/resume" title="Resume" setNavState={setNavState} />\
         <NavItem page="/contact" title="Contact" setNavState={setNavState} />
         <NavItem page="/projects" title="Projects" setNavState={setNavState} />
       </ul>
