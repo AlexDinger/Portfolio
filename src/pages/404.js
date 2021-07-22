@@ -9,4 +9,4 @@ const FourOFour = () => {
   );
 };
 
-export default 404;
+export default FourOFour;
