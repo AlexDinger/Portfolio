@@ -11,5 +11,4 @@ Portfolio
 - add analytics
 - font changes
 - about me
-- deploy
 - route url
