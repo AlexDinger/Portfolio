@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import NavItem from "./NavItem.jsx";
-import { ReactComponent as Hamburger } from "../images/hamburger.svg";
 
 const Nav = () => {
   const [navState, setNavState] = useState(false);
@@ -16,7 +15,7 @@ const Nav = () => {
         onClick={handleMenuClick}
       >
         <div className="cursor-pointer flex flex-col items-center">
-          <img src={Hamburger} />
+          {/* <img src={Hamburger} /> */}
           <span className="uppercase text-xs">Menu</span>
         </div>
       </div>
@@ -27,7 +26,7 @@ const Nav = () => {
       >
         <NavItem page="/" title="Home" setNavState={setNavState} />
         <NavItem page="/links" title="Links" setNavState={setNavState} />
-        <NavItem page="/resume" title="Resume" setNavState={setNavState} />
+        <NavItem page="/resume" title="Resume" setNavState={setNavState} />\
         <NavItem page="/contact" title="Contact" setNavState={setNavState} />
         <NavItem page="/projects" title="Projects" setNavState={setNavState} />
       </ul>
