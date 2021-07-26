@@ -174,7 +174,9 @@ const Contact = () => {
                   />
                 </svg>
                 <h3 className="text-4xl">Message Sent</h3>
-                <p className="text-2xl">I usually respond within 24 hours</p>
+                <p className="md:text-2xl text-xl">
+                  I usually respond within 24 hours
+                </p>
               </div>
             )
           }
