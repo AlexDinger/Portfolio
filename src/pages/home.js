@@ -7,7 +7,7 @@ import ProjectCard from "../components/ProjectCard.jsx";
 const Home = ({ repos }) => {
   return (
     <Page>
-      <div className="md:space-y-0 space-y-5">
+      <div className="space-y-5">
         <h2 className="text-white md:text-3xl text-3xl font-bold">About Me</h2>
         <p>
           My name is Alex Dinger and I am a Frontend Developer living and
@@ -36,7 +36,7 @@ const Home = ({ repos }) => {
         Contact Me
       </button> */}
       </div>
-      <div className="md:space-y-0 space-y-5 w-full">
+      <div className="space-y-5">
         <h2 className="text-white md:text-3xl text-3xl font-bold">
           Recent Projects
         </h2>

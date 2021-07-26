@@ -15,10 +15,12 @@ const Projects = () => {
 
   return (
     <Page>
-      <h2 className="text-white md:text-3xl text-3xl font-bold">Projects</h2>
-      {repos?.map((repo, index) => {
-        return <ProjectCard repo={repo} key={index} />;
-      })}
+      <div className="space-y-5">
+        <h2 className="text-white md:text-3xl text-3xl font-bold">Projects</h2>
+        {repos?.map((repo, index) => {
+          return <ProjectCard repo={repo} key={index} />;
+        })}
+      </div>
     </Page>
   );
 };
