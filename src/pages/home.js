@@ -9,9 +9,27 @@ const Home = ({ repos }) => {
     <Page>
       <h2 className="text-white md:text-3xl text-3xl font-bold">About Me</h2>
       <p>
-        My name is Alex Dinger and I am a Frontend Developer living in New
-        Jersey. I work mostly with javascript using tools like React and
-        Tailwind CSS.
+        My name is Alex Dinger and I am a Frontend Developer living and working
+        out of New Jersey. I enjoy taking on new and complex problems and
+        learning new technologies along the way. Currently I am working on a
+        fully featured vacation planner for large groups.
+      </p>
+      <p>
+        Feel free to contact me using my contact form{" "}
+        <Link
+          to="/contact"
+          className="underline font-bold transition duration-300 ease-in-out text-gray-400 hover:text-white"
+        >
+          here
+        </Link>{" "}
+        or by sending me an email at{" "}
+        <a
+          className="underline font-bold transition duration-300 ease-in-out text-gray-400 hover:text-white"
+          href="mailto:alexdinger@gmail.com?subject = Inquiry"
+        >
+          alexdinger@gmail.com
+        </a>
+        .
       </p>
       <button className="hidden px-4 py-2 rounded-sm bg-transparent border-white border hover:text-gray-800 transition duration-300 text-lg hover:bg-white font-bold text-white self-center">
         Contact Me

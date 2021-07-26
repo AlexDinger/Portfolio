@@ -15,7 +15,7 @@ const Layout = ({ children, location }) => {
               .typeString("Alex Dinger")
               .pauseFor(2500)
               .deleteAll()
-              .typeString("Front-end Developer")
+              .typeString("Front End Developer")
               .pauseFor(2500)
               .deleteAll()
               .typeString("Alex Dinger")
