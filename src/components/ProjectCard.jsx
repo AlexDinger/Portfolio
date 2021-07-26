@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ProjectImage from "./ProjectImage";
 import ProjectLinkButton from "./ProjectLinkButton";
 import moment from "moment";
