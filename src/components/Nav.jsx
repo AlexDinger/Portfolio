@@ -9,7 +9,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="md:col-span-1 md:static fixed top-0 left-0 w-full md:w-auto flex md:block flex-col border-b-2 md:border-0 border border-gray-400 text-white z-50">
+    <nav className="md:col-span-1 md:static fixed top-0 left-0 w-full md:w-auto flex md:block flex-col border-b-2 md:border-0 border-gray-400 text-white z-50">
       <div
         className="md:hidden flex flex-row justify-end items-center py-2 px-4"
         onClick={handleMenuClick}
